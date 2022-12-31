@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            margin: 0px;
+            
+        }
+        h1{
+            text-align: center;
+            color: white;
+        }
+        nav{
+            background-color: white;
+            padding: 3px;
+            box-shadow: 3px 5px 9px black;
+        }
+        nav > a {
+            color: rgb(56, 71, 68);
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        
+        header{
+            background-color: gray;
+            padding: 10px;
+            margin: 0px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px ;
+            border-radius: 20px 0px;
+            min-height: 768px;
+        }
+        #assuntos{
+            padding: 5px;
+            margin: 5px;
+        }
+        h2,p{
+            color: rgb(56, 71, 68);
+        }
+        #notícias{
+            margin: 10px 0px;
+        }
+        #autor{
+            font-weight: bold;
+        }
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: gray;
+        }
+        footer{
+            background-color: gray;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Produtos</a>
+            <a href="#">Serviços</a>
+            <a href="#">Quem Somos</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+            <nav>
+                <a href="#">Esportes</a>
+                <a href="#">Política</a>
+                <a href="#">Tecnologia</a>
+            </nav>
+            
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex a nihil laborum sapiente ad itaque aut, blanditiis ut aperiam fugiat in et adipisci eaque laboriosam aliquid culpa perferendis nemo animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique reiciendis porro sequi animi. Laudantium minus quidem nisi maiores, asperiores excepturi, tenetur exercitationem itaque accusantium nihil eveniet. Eligendi explicabo placeat voluptatum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio ut dolorem dolorum, non quisquam doloremque, incidunt ipsam, fugiat nemo totam similique commodi eaque quaerat iste molestias asperiores. Aut, omnis vitae?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex a nihil laborum sapiente ad itaque aut, blanditiis ut aperiam fugiat in et adipisci eaque laboriosam aliquid culpa perferendis nemo animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique reiciendis porro sequi animi. Laudantium minus quidem nisi maiores, asperiores excepturi, tenetur exercitationem itaque accusantium nihil eveniet. Eligendi explicabo placeat voluptatum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio ut dolorem dolorum, non quisquam doloremque, incidunt ipsam, fugiat nemo totam similique commodi eaque quaerat iste molestias asperiores. Aut, omnis vitae?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex a nihil laborum sapiente ad itaque aut, blanditiis ut aperiam fugiat in et adipisci eaque laboriosam aliquid culpa perferendis nemo animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique reiciendis porro sequi animi. Laudantium minus quidem nisi maiores, asperiores excepturi, tenetur exercitationem itaque accusantium nihil eveniet. Eligendi explicabo placeat voluptatum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio ut dolorem dolorum, non quisquam doloremque, incidunt ipsam, fugiat nemo totam similique commodi eaque quaerat iste molestias asperiores. Aut, omnis vitae?</p>
+                <h2>Notícias do Mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex a nihil laborum sapiente ad itaque aut, blanditiis ut aperiam fugiat in et adipisci eaque laboriosam aliquid culpa perferendis nemo animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique reiciendis porro sequi animi. Laudantium minus quidem nisi maiores, asperiores excepturi, tenetur exercitationem itaque accusantium nihil eveniet. Eligendi explicabo placeat voluptatum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio ut dolorem dolorum, non quisquam doloremque, incidunt ipsam, fugiat nemo totam similique commodi eaque quaerat iste molestias asperiores. Aut, omnis vitae?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex a nihil laborum sapiente ad itaque aut, blanditiis ut aperiam fugiat in et adipisci eaque laboriosam aliquid culpa perferendis nemo animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique reiciendis porro sequi animi. Laudantium minus quidem nisi maiores, asperiores excepturi, tenetur exercitationem itaque accusantium nihil eveniet. </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex a nihil laborum sapiente ad itaque aut, blanditiis ut aperiam fugiat in et adipisci eaque laboriosam aliquid culpa perferendis nemo animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique reiciendis porro sequi animi. Laudantium minus quidem nisi maiores, asperiores excepturi, tenetur exercitationem itaque accusantium nihil eveniet. </p>
+                <aside>
+                    <p id="autor">Escrito por John John</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Thiago Souza</p>
+    </footer>
+</body>
+</html>
