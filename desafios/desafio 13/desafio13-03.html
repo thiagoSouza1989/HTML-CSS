@@ -11,6 +11,7 @@
         }
         table{
             border-collapse: collapse;
+            
         }
         caption{
             font-size: 1.3em;
@@ -18,9 +19,14 @@
             padding: 10px;
         }
         th, td {
-            border: 1px solid;
+            border: 1px solid black;
             padding: 10px;
         }
+        .t1{
+            background-color: gray;
+            color: white;
+        }
+        
     </style>
 </head>
 <body>
@@ -29,16 +35,16 @@
         <caption>
             Média de Notas
         </caption>
-        <thead>
-            <tr>
+        <thead class="t1">
+            <tr >
                 <th rowspan="2" scope="col">Área</th>
-                <th rowspan="2">Disciplina</th>
-                <th colspan="2">Notas</th>
-                <th rowspan="2">Média</th>
+                <th rowspan="2" scope="col">Disciplina</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Média</th>
             </tr>
             <tr>
-                <th>Nota 1</th>
-                <th>Nota 2</th>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
             </tr>
         </thead>
         <tbody>
@@ -67,7 +73,7 @@
                 <td>10</td>
                 <td>10</td>
             </tr>
-            <tr>
+            <tr class="t1">
                 <th colspan="4">Média de Exatas</th>
                 <td>10</td>
             </tr>
@@ -84,7 +90,7 @@
                 <td>10</td>
                 <td>10</td>
             </tr>
-            <tr>
+            <tr class="t1">
                 <th colspan="4">Média de Humanas</th>
                 <td>10</td>
             </tr>
