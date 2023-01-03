@@ -1,23 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 *{
+    margin: 0;
+    padding: 0;
     color: white;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    
 }
 
 html,
 body{
-    height: 97.5vh;
+    height: 90vh;
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/221808/sky.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     
 }
 
+h1{
+    padding: 10px;
+    margin: 50px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3em;
+    text-shadow: 2px 5px 5px rgb(0, 0, 0);
+    
+}
+
 .container{
     display: flex;
-    flex-direction: row;
-    height: 40vh;
+    flex-wrap: wrap;
+    height: 62.5vh;
     align-items: center;
     justify-content: center;
     perspective: 90rem;
@@ -25,22 +37,18 @@ body{
     margin: 10px;
 }
 
-@media (max-screen: 600px){
-    .container{
-        flex-direction: column;
-    }
-}
-
 .div-transform{
     display: flex;
+    
     transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, -0.9)
         scale(1.1) translateX(50px);
+    padding: 10px;
 }
 
 .card{
     color: #fff;
     border-radius: 8px;
-    padding: 0px;
+    padding: 5px;
     width: 244px;
     transition: 0.5s ease;
     overflow: hidden;
@@ -60,6 +68,7 @@ body{
 
 .card h2{
     text-transform: capitalize;
+    padding: 5px;
 }
 
 .card-1{
@@ -119,43 +128,22 @@ body{
 
 
 .footer{
-    /*margin: 180px;*/
+    margin: 0;
     padding-block: 1rem;
     background-color: #151823;
-    opacity: .6;
+    opacity: .7;
     color: #666873;
     font-family: sans-serif;
-    
+    /*position: relative;*/
 }
-
-.footer_container {
-    max-width: 116rem;
-    margin: auto;
-    padding: 0 1.5rem;
-}
-
-
-.footer_top {
-    display: grid;
-    grid-template-columns: 
-    repeat(auto-fit, minmax(20rem 1fr));
-    row-gap: 2rem;
-}
-
-.footer_title {
-    font-size: 1.8rem;
-    color: #fff;
-    font-weight: 500;
-    margin-bottom: 2rem;
-}
-
 .footer_list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    text-justify: auto;
     gap: 2rem;
-    
+    /*position: relative;
+    align-items: center;*/
 }
-
 
 .footer_list-item {
     list-style: none;
@@ -165,35 +153,39 @@ body{
     color: inherit;
     transition: color .25s;
 }
-.footer_list-link:hover {
-    color: #fff;
-}
 
+.footer_list-link:hover {
+    color: rgb(0, 0, 0);
+}
+/*
 .company_info {
     grid-column: 1/-1;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
     padding-right: 5rem;
-}
+    
+}*/
 .company_logo {
     color: #fff;
 }
+
 .company_info ul {
     flex-direction: row;
+    padding: 10px;
+    align-items: flex-end;
 }
 .copyright {
     margin-top: auto;
 }
+/*
 @media screen and (min-width: 40em) {
     .company_info {
         grid-column: span 2;
     }
-}
-
-/*
-footer{
-    margin: 450px;
-    font-style: italic;
-    font-size: bold;
 }*/
+
+footer span{
+    margin: 0px;
+    padding: 10px;
+}

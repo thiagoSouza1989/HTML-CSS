@@ -180,6 +180,9 @@ footer{
 .footer_list{
     padding: 10px;
 }
+.footer_list-item {
+    list-style: none;
+}
 
 .footer_list-link {
     margin-right: 20px;
