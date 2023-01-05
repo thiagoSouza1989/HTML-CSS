@@ -134,15 +134,16 @@ h1{
     opacity: .7;
     color: #666873;
     font-family: sans-serif;
-    /*position: relative;*/
+    
 }
 .footer_list {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     text-justify: auto;
+    align-content: center;
     gap: 2rem;
-    /*position: relative;
-    align-items: center;*/
+    
 }
 
 .footer_list-item {
@@ -157,15 +158,6 @@ h1{
 .footer_list-link:hover {
     color: rgb(0, 0, 0);
 }
-/*
-.company_info {
-    grid-column: 1/-1;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    padding-right: 5rem;
-    
-}*/
 .company_logo {
     color: #fff;
 }
@@ -184,6 +176,9 @@ h1{
         grid-column: span 2;
     }
 }*/
+
+
+
 
 footer span{
     margin: 0px;
