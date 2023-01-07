@@ -4,162 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site de teste</title>
+    <title>Uso de iframes</title>
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-            background-color: lightgray;
-            color: black;
-        }
-        table{
-            border-collapse: collapse;
-        }
-        caption{
-            font: 1.2em bolder;
-            padding: 20px;
-        }
-        th, td{
-            border: 1px solid black;
+            margin: auto;
+            max-width: 1000px;
             padding: 10px;
+            line-height: 2em;
+            font-size: large;
         }
-        tr:nth-child(even){
-            background-color: rgb(151, 151, 151);
+        a{
+            text-decoration: none;
         }
-        #container{
-            overflow-x: auto;
+        a:hover{
+            text-decoration: underline;
         }
-        tr:nth-child(odd){
-            background-color: white;
+        iframe{
+            width: 95vh;
+            height: 400px;
+            border: 2px solid black;
         }
     </style>
 </head>
 <body>
-    <table>
-        <caption>Vendas de produtos por mês</caption>
-        <thead>
-            <tr>
-                <th>Produto</th>
-                <th>Jan</th>
-                <th>Fev</th>
-                <th>Mar</th>
-                <th>Abr</th>
-                <th>Mai</th>
-                <th>Jun</th>
-                <th>Jul</th>
-                <th>Ago</th>
-                <th>Set</th>
-                <th>Out</th>
-                <th>Nov</th>
-                <th>Dez</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>TV 42'</td>
-                <td>01</td>
-                <td>07</td>
-                <td>04</td>
-                <td>12</td>
-                <td>10</td>
-                <td>05</td>
-                <td>07</td>
-                <td>02</td>
-                <td>01</td>
-                <td>04</td>
-                <td>16</td>
-                <td>14</td>
-            </tr>
-            <tr>
-                <td>Home Theater</td>
-                <td>01</td>
-                <td>07</td>
-                <td>04</td>
-                <td>12</td>
-                <td>10</td>
-                <td>05</td>
-                <td>07</td>
-                <td>02</td>
-                <td>01</td>
-                <td>04</td>
-                <td>16</td>
-                <td>14</td>
-            </tr>
-            <tr>
-                <td>Sansung Galaxy S20</td>
-                <td>01</td>
-                <td>07</td>
-                <td>04</td>
-                <td>12</td>
-                <td>10</td>
-                <td>05</td>
-                <td>07</td>
-                <td>02</td>
-                <td>01</td>
-                <td>04</td>
-                <td>16</td>
-                <td>14</td>
-            </tr>
-            <tr>
-                <td>iPad Mini</td>
-                <td>01</td>
-                <td>07</td>
-                <td>04</td>
-                <td>12</td>
-                <td>10</td>
-                <td>05</td>
-                <td>07</td>
-                <td>02</td>
-                <td>01</td>
-                <td>04</td>
-                <td>16</td>
-                <td>14</td>
-            </tr>
-            <tr>
-                <td>Playstation 4</td>
-                <td>01</td>
-                <td>07</td>
-                <td>04</td>
-                <td>12</td>
-                <td>10</td>
-                <td>05</td>
-                <td>07</td>
-                <td>02</td>
-                <td>01</td>
-                <td>04</td>
-                <td>16</td>
-                <td>14</td>
-            </tr>
-            <tr>
-                <td>Lava louças</td>
-                <td>01</td>
-                <td>07</td>
-                <td>04</td>
-                <td>12</td>
-                <td>10</td>
-                <td>05</td>
-                <td>07</td>
-                <td>02</td>
-                <td>01</td>
-                <td>04</td>
-                <td>16</td>
-                <td>14</td>
-            </tr>
-            <tr>
-                <td>Amazon Echo</td>
-                <td>01</td>
-                <td>07</td>
-                <td>04</td>
-                <td>12</td>
-                <td>10</td>
-                <td>05</td>
-                <td>07</td>
-                <td>02</td>
-                <td>01</td>
-                <td>04</td>
-                <td>16</td>
-                <td>14</td>
-            </tr>
-        </tbody>
-    </table>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus sint, molestias ea voluptatibus ab dolorum eaque, totam inventore harum, numquam blanditiis earum temporibus autem consequuntur animi fuga excepturi quidem magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente debitis laudantium sed voluptas ratione. Sequi inventore officiis sit natus cum distinctio sint? Illo quia dicta a itaque consectetur quidem animi?</p>
+
+    <ul>
+        <li><a href="extra-pages/page01.html" target="frame">Primeira página</a></li>
+        <li><a href="extra-pages/page02.html" target="frame">Segunda página</a></li>
+        <li><a href="extra-pages/page03.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptas in fugiat. Quas modi, nam molestias doloremque voluptate enim nobis odit fugiat incidunt necessitatibus esse illo sit numquam perspiciatis adipisci. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, dignissimos quod itaque rerum sapiente molestias nam, repellendus deleniti aut provident, reprehenderit laudantium beatae autem natus maxime consequatur exercitationem corrupti asperiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit blanditiis voluptas totam magnam necessitatibus consequatur nostrum delectus quidem, magni ratione fuga veritatis, asperiores accusamus in ullam hic deleniti consectetur aspernatur.</p>
+
+    <iframe name="frame" srcdoc="<h1> Escolha uma das opções acima </h1> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis inventore qui, enim unde placeat iste quas recusandae non, deserunt magni magnam architecto officiis ex eaque numquam tempore sit voluptate quasi. </p> <img src='https://images.unsplash.com/photo-1484100356142-db6ab6244067?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1067&q=80' width='90%' height='90%'>  " >
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad voluptas delectus nulla! Officia laborum possimus consequatur. Vel suscipit illum vero fugit eveniet reprehenderit nostrum provident fuga sed voluptates. Molestias, exercitationem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, nobis odio veniam quod labore expedita inventore nam repellendus ex incidunt, laborum, consectetur ab totam. Culpa id deleniti quae reiciendis possimus?</p>
 </body>
 </html>
