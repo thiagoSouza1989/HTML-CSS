@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionando conteúdos</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        header{
+            font-size: 2em;
+            text-align: center;
+            padding: 50px;
+            /*background-color: #17B169;*/
+            /*background-color: #00563B;*/
+            background-image: linear-gradient(to bottom, #17B169, #00563B);
+        }
+        h1{
+            margin: 0;
+            color: #7FFF00;
+            font-family: 'Audiowide', cursive;
+        }
+        p{
+            padding: 10px 0px;
+            line-height: 2em;
+            text-align: justify;
+        }
+        body{
+            background-color: #32de84;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main{
+            max-width: 1000px;
+            padding: 10px ;
+            margin: auto;
+            text-align: center;
+            
+        }
+        h2{
+            font-size: 2em;
+            padding: 20px;
+            margin-top: 20px;
+            color: #00563B;
+            font-family: 'Audiowide', cursive;
+        }
+        .video1{
+            margin: 0px -20px 30px -20px;
+            padding: 20px;
+            padding-bottom: 50%;
+            position: relative;
+        }
+        .video1 > iframe{
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
+        }
+        footer{
+            background-color: #17B169;
+            color: white;
+            text-align: center;
+            padding: 10px 0px;
+            
+        }
+        footer > p{
+            margin: 0px;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Conteúdos dentro de iframes</h1>
+    </header>
+    <main>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quis maiores quae ipsam architecto numquam ullam alias vel rerum, illo non. Consequuntur velit quae autem, dolore labore in dolor veniam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur optio culpa est repellat quae sapiente voluptas, vitae itaque. Quo quia ab, nam iure corrupti laboriosam hic provident voluptatum similique repellendus.</p>
+        
+        <h2>Vídeos</h2>
+        <div class="video1"><iframe src="https://player.vimeo.com/video/232955578?h=f465f0ecea&byline=0&portrait=0" width="600" height="637" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+        
+        <h2>Mapas do Google</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d65197158.781676136!2d-43.14058125!3d4.157589800000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f5e4ed48ecb%3A0xe5820978329dba86!2sHenri%20SELMER%20Paris!5e0!3m2!1spt-PT!2sbr!4v1673114564137!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <h2>Mapas do Waze</h2>
+        <iframe src="https://embed.waze.com/iframe?zoom=16&lat=-23.100813&lon=-47.226831&ct=livemap" width="600" height="450" allowfullscreen></iframe>
+        
+        <h2>Google documents</h2>
+        <!--Ir em compartilhar na web-->
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vRieHUx7q-uTPhdxn-V_008Rnd3ZB8nWBhhbYKJ3c_KdEu20Z8h4TfXISPwzQrC2w/pub?embedded=true" width="800px" height="500px"></iframe>
+    </main>
+    <footer>
+        <p>&copy;2022 Thiago Souza. All rights reserved.</p>
+    </footer>
+</body>
+</html>
