@@ -84,7 +84,7 @@ body.open .navbar-overlay{
     font-size: 16px;
   }
   
-  .navbar-menu {
+.navbar-menu {
     position: fixed;
     z-index: 3;
     top: 0;
@@ -100,14 +100,14 @@ body.open .navbar-overlay{
     background: #000000;
     visibility: hidden;
     transition: translate 0.3s;
-  }
+}
   
-  body.open .navbar-menu {
+body.open .navbar-menu {
     translate: 0 0;
     visibility: visible;
-  }
+}
   
-  @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
     .navbar-menu {
       position: static;
       translate: 0 0;
@@ -116,14 +116,21 @@ body.open .navbar-overlay{
       flex-direction: row;
       visibility: visible;
     }
-  }
+}
   
-  .navbar-menu > button {
+.navbar-menu > button {
     color: rgba(255, 255, 255, 0.5);
     background: transparent;
     padding: 0 8px;
-  }
+}
   
-  .navbar-menu > button.active {
+.navbar-menu > button.active {
     color: inherit;
-  }
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
