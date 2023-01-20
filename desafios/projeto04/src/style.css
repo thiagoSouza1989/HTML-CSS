@@ -3,7 +3,9 @@
 }
 
 body{
-    background: #3b3d43;
+    /*background: #3b3d43;*/
+    background: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat;
+    background-size: cover;
 }
 
 button{
@@ -130,7 +132,21 @@ body.open .navbar-menu {
 
 a{
     text-decoration: none;
+    color: white;
 }
 a:hover{
-    text-decoration: underline;
+    text-transform: 1px ;
+    color: rgb(66, 66, 163);
+    
+}
+
+.corpo{
+    text-align: justify;
+    color: white;
+    font-size: 2em;
+    max-width: 1000px;
+    margin: auto;
+    height: 90vh;
+    margin-top: 64px;
+    padding: 10px;
 }

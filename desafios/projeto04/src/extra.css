@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    text-transform: uppercase;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    
+}
+
+header h1{
+    /*font-family: 'Bodoni Moda', serif;*/
+    font-family: 'Michroma', sans-serif;
+    font-size: 3em;
+    padding: 10px;
+    color: white;
+    /*background-color: lightblue;*/
+}
+nav{
+    padding: 10px;
+    border: 2px black;
+    background-color: red;
+    height: 28px;
+    
+}
+a{
+    font-family: 'Michroma', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    
+}
+a:hover{
+    text-transform: 1px ;
+    color: rgb(66, 66, 163);
+    
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.623);
+}
+main{
+    /*background-color: lightgray;*/
+    height: 84.4vh;
+    padding: 0px 5px;
+}
+article{
+    background-color: rgba(255, 255, 255, 0.473);
+    height: 80vh;
+    margin: auto;
+    max-width: 1000px;
+    padding: 10px;
+    text-align: justify ;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.479);
+    border-radius: 0px 0px 10px 10px;
+}
