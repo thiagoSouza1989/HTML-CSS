@@ -22,7 +22,7 @@ header{
 header h1{
     /*font-family: 'Bodoni Moda', serif;*/
     font-family: 'Michroma', sans-serif;
-    font-size: 3em;
+    font-size: 5vh;
     padding: 10px;
     color: white;
     text-shadow: 2px 2px 10px black;
@@ -30,7 +30,6 @@ header h1{
 }
 nav{
     padding: 10px;
-    border: 2px black;
     background-color: red;
     height: 25px;
     
@@ -45,9 +44,8 @@ a{
     
 }
 a:hover{
-    text-transform: 1px ;
+    text-transform: 5em;
     color: rgb(66, 66, 163);
-    
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.623);
 }
@@ -59,9 +57,11 @@ main{
 article{
     background-color: rgba(255, 255, 255, 0.473);
     height: 80vh;
-    margin: auto;
-    max-width: 1000px;
-    padding: 10px;
+    /*margin: 0 auto;
+    max-width: 840px;
+    padding: 0 10px;*/
+    width: min(100% - 30px, 840px);
+    margin-inline: auto;
     text-align: justify ;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.479);
     border-radius: 0px 0px 10px 10px;
