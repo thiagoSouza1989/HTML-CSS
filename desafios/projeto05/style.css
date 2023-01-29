@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 *{
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 html, body{
     height: 100%;
@@ -111,4 +114,55 @@ span{
 }
 .menu button:hover span:last-child{
     opacity: 1;
+}
+
+
+.redes{
+    width: 30px;
+    
+}
+a{
+    padding: 5px;
+    text-align: end;
+}
+main{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    width: min(100% - 30px, 840px);
+    margin-inline: auto;
+    min-height: 80vh;
+}
+h1{
+    /*font-family: 'Paprika', cursive;*/
+    font-family: 'Courgette', cursive;
+    font-size: 8vh;
+    background-image: linear-gradient(to right, #05BCCF , #831747 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p{
+    line-height: 2em;
+    text-align: justify;
+}
+
+
+footer{
+    display: flex;
+    align-items: center; /*alinha os itens verticalmente*/
+    justify-content: center;
+    gap: 20px;
+    background-image: linear-gradient(to right, #05BCCF , #831747 );
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px -1px solid rgba(57, 76, 96, 0.15);
+    position: fixed;
+    bottom: 0;
+    
+}
+footer p{
+    margin: 0;
+    color: white;
+    font-weight: bold;
 }
