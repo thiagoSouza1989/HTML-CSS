@@ -10,6 +10,7 @@ html, body{
 body{
     margin: 0;
     font-family: Inter;
+    
 }
 nav{
     display: flex;
@@ -20,6 +21,7 @@ nav{
     height: 60px;
     padding: 0 20px;
     box-shadow: 0 2px 4px -1px rgba(57, 76, 96, 0.15);
+    
 }
 .burger{
     width: 16px;
@@ -132,6 +134,7 @@ main{
     width: min(100% - 30px, 840px);
     margin-inline: auto;
     min-height: 80vh;
+    
 }
 h1{
     /*font-family: 'Paprika', cursive;*/
@@ -145,7 +148,17 @@ p{
     line-height: 2em;
     text-align: justify;
 }
-
+/*
+.reveal {
+    position: relative;
+    transform: translateY(144px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}*/
 
 footer{
     display: flex;
@@ -157,12 +170,12 @@ footer{
     height: 60px;
     padding: 0 20px;
     box-shadow: 0 2px 4px -1px solid rgba(57, 76, 96, 0.15);
-    position: fixed;
+    /*position: fixed;*/
     bottom: 0;
     
 }
 footer p{
     margin: 0;
     color: white;
-    font-weight: bold;
+    font-style: italic;
 }
