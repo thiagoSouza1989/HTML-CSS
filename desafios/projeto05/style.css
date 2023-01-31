@@ -71,7 +71,7 @@ input:focus{
 input:focus ~ .menu{
     box-shadow: 0 0px 8px 0 rgba(57, 76, 96, 0.18);
     height: 170px;
-    width: 210px;
+    width: 290px;
     padding-top: 40px;
     border-radius: 4px;
     background: #fff;
