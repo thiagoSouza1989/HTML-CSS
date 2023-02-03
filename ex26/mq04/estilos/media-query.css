@@ -1,5 +1,74 @@
 @charset "UTF-8";
 
-@media screen{
-    
+/* todas as demais mídias*/
+
+/* Typical Device Breakpoints
+
+Pequenas telas: até 600px
+celular: de 600px - 768px
+tablet: de 769px - 992px
+desktop: 992px - 1200px
+grandes telas: acima de 1200px
+*/
+
+@media print{
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body{
+        background-image: url(../imagens/back-print.jpg); /* desnecessário*/
+    }
+    main{
+        width: 90vh;
+        border: 2px solid black;
+    }
+    main::after{
+        content: 'Criado e postado por: Cachorrão Pictures';
+        text-decoration: overline;
+    }
+    main h1 {
+        text-shadow: none;
+        color: black;
+    }
+
+    #phone{display: none;}
+    #tablet{display: none;}
+    #print{display: block;}
+    #pc{display: none;}
+    #tv{display: none;}
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    #phone{display: none;}
+    #tablet{display: block;}
+    #print{display: none;}
+    #pc{display: none;}
+    #tv{display: none;}
+}
+@media screen and (min-width: 992px){
+    body{
+        background-image: url(../imagens/back-pc.jpg)
+    };
+
+    #phone{display: none;}
+    #tablet{display: none;}
+    #print{display: none;}
+    #pc{display: block;}
+    #tv{display: none;}
+
+}
+@media screen and (min-width: 1200px){
+    body{
+        background-image: url(../imagens/back-tv.jpg)
+    };
+
+    #phone{display: none;}
+    #tablet{display: none;}
+    #print{display: none;}
+    #pc{display: none;}
+    #tv{display: block;}
 }
