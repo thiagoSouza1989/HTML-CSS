@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Molle&display=swap');
 
 *{
     font-family: Arial, Helvetica, sans-serif;
@@ -10,6 +11,9 @@
 }
 body, html{
     background-color: #419DFC;
+    /*background-image: url(https://images.pexels.com/photos/794494/pexels-photo-794494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat;*/
 }
 header{
     /*background-color: #AD41FC;*/
@@ -78,17 +82,21 @@ article p{
     text-indent: 10px;
     line-height: 1.5em;
 }
+img{
+    width: 100%;
+    padding: 20px 0px;
+}
 footer{
     background-color: #6D3AE0;
-    text-align: center;
-    
+    text-align: center; 
 }
 footer p{
     padding: 10px;
     color: white;
 }
 footer a{
-    font-family: 'Great Vibes', cursive;
+    /*font-family: 'Great Vibes', cursive;*/
+    font-family: 'Molle', cursive;
     text-decoration: none;
     color: white;
     font-style: italic;
