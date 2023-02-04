@@ -15,13 +15,14 @@ html{
 }
 
 body{
+    height: 92.4vh;
     background: black url(../imagens/back-phone.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
 }
 main{
     background-color: rgba(255, 255, 255, 0.842);
-    width: 400px;
+    max-width: 400px;
     margin: auto;
     margin-top: 20px;
     border-radius: 10px;
@@ -31,6 +32,7 @@ h1{
     text-align: center;
     color: white;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.575);
+    font-size: 5vh;
 }
 img{
     display: block;
