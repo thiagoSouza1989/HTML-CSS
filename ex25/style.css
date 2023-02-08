@@ -1,4 +1,21 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@font-face {
+    
+    font-family: 'jully_julia';
+    font-family: 'KLCupid';
+    src: url('fonts/jully_julia.otf') format('opentype'), url(fonts/jully_julia.ttf) format('truetype'), url(fonts/KLCupid.ttf) format(truetype);
+
+    font-weight: normal;
+    font-style: normal;
+} 
+/*
+@font-face {
+    font-family: 'KLCupid';
+    src: url(fonts/KLCupid.ttf) format(truetype);
+}*/
+    
 
 *{
     margin: 0;
@@ -15,6 +32,7 @@ body{
 }
 header{
     /*background-color: rgba(128, 128, 128, 0.514);*/
+    background-color: rgba(245, 245, 220, 0.671);
     margin: auto;
     text-align: center;
     color: white;
@@ -23,21 +41,35 @@ header{
 header h1{
     padding: 20px;
     font-size: 7vh;
+    font-family: 'Great Vibes', cursive;
 }
 h2{
     font-size: 6vh;
+    font-family: 'KLCupid';
+    text-shadow: 2px 2px 10px black;
 }
 main{
     margin: auto;
     text-align: center;
-    /*background-color: rgba(245, 245, 220, 0.671);*/
-    color: white;
-    max-width: 800px;
-    
+    background-color: rgba(245, 245, 220, 0.671);
+    /*color: white;*/
+    max-width: 500px;
+    margin-top: 49vh;
 }
 main h1{
     padding: 20px;
 }
 form p{
     padding: 5px;
+}
+footer{
+    background-color: rgba(245, 245, 220, 0.671);
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+footer p{
+    font-family: 'KLCupid';
+    font-size: 1.5em;
 }
