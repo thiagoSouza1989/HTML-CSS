@@ -9,13 +9,7 @@
 
     font-weight: normal;
     font-style: normal;
-} 
-/*
-@font-face {
-    font-family: 'KLCupid';
-    src: url(fonts/KLCupid.ttf) format(truetype);
-}*/
-    
+}     
 
 *{
     margin: 0;
@@ -39,12 +33,12 @@ header{
     text-shadow: 2px 2px 10px black;
 }
 header h1{
-    padding: 20px;
-    font-size: 7vh;
+    padding: 10px;
+    font-size: 8vh;
     font-family: 'Great Vibes', cursive;
 }
 h2{
-    font-size: 6vh;
+    font-size: 5vh;
     font-family: 'KLCupid';
     text-shadow: 2px 2px 10px black;
 }
@@ -54,7 +48,7 @@ main{
     background-color: rgba(245, 245, 220, 0.671);
     /*color: white;*/
     max-width: 500px;
-    margin-top: 49vh;
+    margin-top: 51vh;
 }
 main h1{
     padding: 20px;
