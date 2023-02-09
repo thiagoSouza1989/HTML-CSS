@@ -20,12 +20,12 @@ body{
     min-width: 0;
     object-fit: cover;
     opacity: 0.5;
-    height: 700px;
+    height: 800px;
     transition: 200ms;
     transition-timing-function: ease-out;
 }
 .flex-images-item:hover{
-    flex: 1 1 300px;
+    flex: 1 1 500px;
     opacity: 1;
 }
 .flex-images-item:first-child{
