@@ -9,7 +9,7 @@ body{
 .flex-images{
     display: flex;
     flex-direction: row;
-    width: 400px;
+    width: 300px;
     gap: 1px;
 }
 .flex-images-item{
@@ -24,7 +24,7 @@ body{
     transition-timing-function: ease-out;
 }
 .flex-images-item:hover{
-    flex: 1 1 250px;
+    flex: 1 1 200px;
     opacity: 1;
 }
 .flex-images-item:first-child{
