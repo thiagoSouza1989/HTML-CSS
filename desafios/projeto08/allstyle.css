@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #2a2135;
+}
+h1{
+    text-align: center;
+    font-size: 6vh;
+    padding: 10px;
+    color: white;
+}
+nav{
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+}
