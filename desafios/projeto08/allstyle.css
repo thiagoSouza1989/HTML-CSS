@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -50,5 +51,22 @@ menu a:hover{
 }
 main{
     background-color: #e9edf9;
+    height: 88vh;
+    
+}
+article{
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+main h1{
+    font-family: 'Lobster Two', cursive;
+    font-size: 2.5em;
+    padding: 10px;
+    margin-top: 20px;
+}
+article p{
+    padding: 10px 0px;
+    line-height: 1.5em;
 }
 
