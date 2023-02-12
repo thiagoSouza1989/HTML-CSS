@@ -51,7 +51,7 @@ menu a:hover{
 }
 main{
     background-color: #e9edf9;
-    height: 88vh;
+    min-height: 88vh;
     
 }
 article{
