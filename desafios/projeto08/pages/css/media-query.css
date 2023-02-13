@@ -11,4 +11,28 @@
     menu a {
         border-top: none;
     }
+    /*
+    .item{
+        padding: 20px 0px;
+    }*/
+    /*
+    .container .item img{
+        width: 700px;
+        transition: 0.3s;
+        
+    }*/
+    
+}
+@media screen and (min-width:1020px) {
+    .item{
+        display: grid;
+        width: 1900px;
+        background-color: aquamarine;
+        justify-content: center;
+    }
+    .container .item img{
+        width: 1000px;
+        transition: 0.3s;
+        
+    }
 }
